@@ -1,0 +1,107 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Data Awareness Hub</title>
+    <link rel="stylesheet" href="style.css">
+  <style>
+    .contact-info {
+      margin-bottom: 20px;
+    }
+
+    .contact-info p {
+      margin: 10px 0;
+    }
+
+    .contact-info a {
+      color: #000;
+      text-decoration: none;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+
+    .contact-form label {
+      display: block;
+      margin: 10px 0 5px;
+    }
+
+    .contact-form input, .contact-form textarea {
+      width: 60%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    .contact-form button {
+      background-color: #2c3e50;
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background-color: #444;
+    }
+    #message{
+        width: 60%;
+    }
+  </style>
+<body>
+<header>
+        <h1>Health Data Awareness Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bestpractices.html">Best Practices</a></li>
+                <li><a href="risks&solutions.html">Risks & Solutions</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- Header Section -->
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+ <div>
+    <section>
+    <p><strong>Remember, no question is too small, and no concern is too big- let's talk!</strong></p>
+
+    <form class="contact-form" action="https://formspree.io/f/mdkaqlew" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="Name" placeholder="Your Name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="Email" placeholder="Your Email" required>
+
+      <label for="phone">Phone Number:</label>
+      <input type="text" id="phone" name="Phone" placeholder="Your Phone Number">
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="Message" rows="5" placeholder="Your Message/query" required></textarea>
+            <br>
+      <button type="submit">Send</button>
+    </form>
+    </section>
+  </div>
+
+    <footer>
+        <div>
+      <p>Created by: <strong>Anneth S. Batiho</strong></p>
+      <p>From: Mwanza College of Health and Allied Science, Bugando</p>
+    <div>
+      <p>&copy; 2025 Health Data Awareness Hub, All rights reserved.</p>
+    </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

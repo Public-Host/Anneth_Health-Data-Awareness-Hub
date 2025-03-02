@@ -1,0 +1,232 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    background: white;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#titan{
+    text-align: justify;
+}
+
+.faq-toggle {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.faq-answer {
+    display: none;
+    margin: 5px;
+    color: #333;
+}
+
+footer {
+    background: #2c3e50;
+    color: white;
+    padding: 10px;
+}
+
+.welcome{
+    height: 400px;
+    background: url('IMAGES/welcome.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.welcome .content h2{
+    font-size: 45px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    line-height: 55px;
+    margin-bottom: 10px;
+}
+.welcome .content p{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+main {
+    padding: 3rem 1rem;
+}
+
+/* Overview Section */
+.overview {
+    margin-bottom: 2rem;
+}
+
+.overview h2 {
+    font-size: 2rem;
+    color: #2a3d66;
+    margin-bottom: 1rem;
+}
+
+.overview p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.7;
+}
+/* CTA Section */
+.cta {
+    text-align: center;
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 2rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 3rem;
+}
+
+.cta h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.cta p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.cta .button {
+    background-color: #fff;
+    color: #ff6f61;
+    font-size: 1.2rem;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta .button:hover {
+    background-color: #ff9a8b;
+    color: #fff;
+}
+/* Learning Section */
+.learning {
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.learning h2 {
+    font-size: 2rem;
+    color: #2a3d66;
+    margin-bottom: 1rem;
+}
+
+.learning ul {
+    list-style-type: none;
+}
+
+.learning ul li {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+/* Best Practices Section */
+.best-practices {
+    padding: 3rem 1rem;
+}
+
+.best-practices h2 {
+    font-size: 2rem;
+    color: #2a3d66;
+    margin-bottom: 1rem;
+}
+
+.best-practices p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.best-practices ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 1.1rem;
+}
+
+.best-practices ul li {
+    margin-bottom: 1rem;
+}
+
+.best-practices ul li strong {
+    font-weight: bold;
+}
+
+/* Risks & Solutions Section */
+.risks-solutions {
+    padding: 3rem 1rem;
+    text-align: left;
+}
+
+.risks-solutions h2 {
+    font-size: 2rem;
+    color: #2a3d66;
+    margin-bottom: 1rem;
+}
+
+.risks-solutions h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.risks-solutions ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 1.1rem;
+}
+
+.risks-solutions ul li {
+    margin-bottom: 1rem;
+}
+
+.risks-solutions ul li strong {
+    font-weight: bold;
+}
+
+#faqSearch {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    background-color: #fff;
+
+
