@@ -61,7 +61,7 @@ footer {
 }
 
 .welcome{
-    height: 400px;
+    height: auto;
     background: url('IMAGES/welcome.jpg') no-repeat;
     background-size: cover;
     background-position: center;
